@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./hiddenCliff.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css"
+    integrity="sha384-REHJTs1r2ErKBuJB0fCK99gCYsVjwxHrSU0N7I1zl9vZbggVJXRMsv/sLlOAGb4M" crossorigin="anonymous">
+    <script src="./jquery-1.12.4.min.js"></script>
+    <script src="./jquery.easing.1.3.js"></script>
+    <script src="./hiddenCliff.js"></script>
+    <title>Document</title>
+</head>
+<body>
+<div class="headerWrap">
+    <div id="header">
+        <div class="head con">
+            <a href="#" class="logo">
+                <img src="./img/logo.png" alt="">
+            </a>
+            <ul class="member after">
+                <li><a href="#">로그인</a></li>
+                <li><a href="#">예약조회</a></li>
+                <li><a href="#">회원가입</a></li>
+            </ul>
+            <ul class="info after">
+                <li><a href="#">MEDIA LIBRARY</a></li>
+                <li><a href="#">KOREAN <span>▼</span></a></li>
+                <li><a href="#"><img src="./img/trip_ad.png" alt="tripAdvisor"></a></li>
+                <li><a href="#">43</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="gnb-Box">
+        <ul class="menu con after">
+            <li class="footer_direct">
+                <div>
+                    <i class="fas fa-th-large"></i>
+                </div>
+            </li>
+            <li><a href="#">HIDDEN CLIFF</a>
+                <ul class="after depth_1">
+                    <li><a href="#">호텔 소개</a></li>
+                    <li><a href="#">오시는 길</a></li>
+                    <li><a href="#">공지사항</a></li>
+                </ul>
+            </li>
+            <li><a href="#">SPECIAL OFFER</a>
+                <ul class="after depth_2">
+                    <li><a href="#">객실 프로모션</a></li>
+                    <li><a href="#">다이닝</a></li>
+                    <li><a href="#">이벤트</a></li>
+                </ul>
+            </li>
+            <li><a href="#">ROOMS</a>
+                <ul class="after depth_3">
+                    <li><a href="#">디럭스</a></li>
+                    <li><a href="#">스위트</a></li>
+                </ul>
+            </li>
+            <li><a href="#">DINING</a>
+                <ul class="after depth_4">
+                    <li><a href="#">파노라마</a></li>
+                    <li><a href="#">비욘드</a></li>
+                    <li><a href="#">치치</a></li>
+                </ul>
+            </li>
+            <li><a href="#">THE INFINITY POOL</a>
+                <ul class="after depth_5">
+                    <li><a href="#">인피니티 풀</a></li>
+                </ul>
+            </li>
+            <li><a href="#">MEETING</a>
+                <ul class="after depth_6">
+                    <li><a href="#">심포니</a></li>
+                    <li><a href="#">하모니</a></li>
+                </ul>
+            </li>
+            <li><a href="#">FACILITIES</a>
+                <ul class="after depth_7">
+                    <li><a href="#">키즈 플레이 룸</a></li>
+                    <li><a href="#">피트니스 센터</a></li>
+                    <li><a href="#">히든 트레일</a></li>
+                </ul>
+            </li>
+            <li><a href="#">THE TRINITY SPA BY L'OCCITANE</a>
+                <ul class="after depth_8">
+                    <li><a href="#">더 트리니티 스파 바이 록시땅</a></li>
+                </ul>
+            </li>
+            <li class="bookBtn">
+                <div>
+                    <i class="far fa-calendar-alt"></i>
+                    <br><span>예약하기</span>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+<div id="contents">
+    <div class="mainVisual con">
+        <nav class="visual_Controller">
+            <a href="#" class="prev">
+                <img src="./img/arrow-left.png" alt="">
+            </a>
+            <a href="#" class="next">
+                <img src="./img/arrow-right.png" alt="">
+            </a>
+        </nav>
+        <div class="visual_Container">
+            <div class="visual-1 on">
+                <p class="visualText">
+                <img src="./img/visual_text1.png" alt="">
+                </p>
+            </div>
+            <div class="visual-2">
+                <p class="visualText">
+                <img src="./img/visual_text1.png" alt="">
+                </p>
+            </div>
+            <div class="visual-3">
+                <p class="visualText">
+                <img src="./img/visual_text1.png" alt="visual_text1">
+                </p>
+            </div>
+            <div class="visual-4">
+                <p class="visualText">
+                <img src="./img/visual_text1.png" alt="visual_text1">
+                </p>
+            </div>
+            <div class="visual-5">
+                <p class="visualText">
+                <img src="./img/visual_text1.png" alt="visual_text1">
+                </p>
+            </div>
+            <div class="visual-6">
+                <p class="visualText">
+                <img src="./img/visual_text1.png" alt="visual_text1">
+                </p>
+            </div>
+            <div class="visual-7">
+                <p class="visualText">
+                <img src="./img/visual_text1.png" alt="visual_text1">
+                </p>
+            </div>
+            <div class="visual-8">
+                <p class="visualText">
+                <img src="./img/visual_text1.png" alt="visual_text1">
+                </p>
+            </div>
+            <div class="visual-9">
+                <p class="visualText">
+                <img src="./img/visual_text1.png" alt="visual_text1">
+                </p>
+            </div>
+        </div>
+        <ul class="visual_nav after">
+            <li><a href="#" class="on"><i class="fas fa-circle"></i></a></li>
+            <li><a href="#"><i class="fas fa-circle"></i></a></li>
+            <li><a href="#"><i class="fas fa-circle"></i></a></li>
+            <li><a href="#"><i class="fas fa-circle"></i></a></li>
+            <li><a href="#"><i class="fas fa-circle"></i></a></li>
+            <li><a href="#"><i class="fas fa-circle"></i></a></li>
+            <li><a href="#"><i class="fas fa-circle"></i></a></li>
+            <li><a href="#"><i class="fas fa-circle"></i></a></li>
+            <li><a href="#"><i class="fas fa-circle"></i></a></li>
+        </ul>
+    </div>
+    <div class="main_News after con1">
+        <div class="newsThumbNail_1">
+            <div class="news_head">
+                <h3>Special Pakage</h3>
+                <ul class="news-button after">
+                    <li><a href="#" class="on"><i class="fas fa-circle"></i></a></li>
+                    <li><a href="#"><i class="fas fa-circle"></i></a></li>
+                    <li><a href="#"><i class="fas fa-circle"></i></a></li>
+                </ul>
+            </div>
+            <div class="news_Imgs">
+                <div class="scaleBox on">
+                    <a href="#">
+                        Spring Infinity<br>
+                        <span>봄을 찾아 떠나는 여행</span>
+                    </a>
+                    <div class="newsImg1-1">
+                    </div>
+                </div>
+                <div class="scaleBox">
+                    <a class="hoverText" href="#">
+                        Glow Pool Party<br>
+                        <span>눈부신 별빛들이 쏟아지는 지상낙원</span>
+                    </a>
+                    <div class="newsImg1-2"></div>
+                </div>
+                <div class="scaleBox">
+                    <a href="#">
+                        4Happiness<br>
+                        <span>히든 클리프가 찾은 네가지 즐거움</span>
+                    </a>
+                    <div class="newsImg1-3"></div>
+                </div>
+            </div>
+        </div>
+        <div class="newsThumbNail_2">
+            <div class="news_head">
+                <h3>Dining Event</h3>
+                <ul class="news-button after">
+                    <li><a href="#" class="on"><i class="fas fa-circle"></i></a></li>
+                    <li><a href="#"><i class="fas fa-circle"></i></a></li>
+                </ul>
+            </div>
+            <div class="news_Imgs">
+                <div class="scaleBox on">
+                    <a href="#">
+                        Chef's Special Menu<br>
+                        <span>새롭게 선보이는</span>
+                        <span>파노라마 쉐프 스페셜</span>
+                    </a>
+                    <div class="newsImg2-1"></div>
+                </div>
+                <div class="scaleBox">
+                    <a href="#">
+                        The Infinity Cabana<br>
+                        <span>원시림 한가운데 마련된</span>
+                        <span>당신만의 공간</span>
+                    </a>
+                    <div class="newsImg2-2"></div>
+                </div>
+            </div>
+        </div>
+        <div class="newsThumbNail_3">
+            <div class="news_head">
+                <h3>Notice</h3>
+                <ul class="news-button after">
+                    <li><a href="#" class="on"><i class="fas fa-circle"></i></a></li>
+                    <li><a href="#"><i class="fas fa-circle"></i></a></li>
+                </ul>
+            </div>
+            <div class="news_Imgs">
+                <div class="scaleBox on">
+                    <div class="newsImg3-1"></div>
+                </div>
+                <div class="scaleBox">
+                    <a href="#">
+                        Infomation<br>
+                        <span>히든 클리프 이용안내</span>
+                    </a>
+                    <div class="newsImg3-2"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main_Movie_Library con1 after">
+        <h2>MOVIE LIBRARY</h2>
+        <div class="video_Player">
+            <iframe src="https://www.youtube.com/embed/baJClWIqtUk?amp;autoplay=1&rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="video_Library">
+            <div class="LibraryWrap after">
+                <div class="Library-1">
+                    <div class="video1 on" src="https://www.youtube.com/embed/baJClWIqtUk">
+                        <div class="textBox">
+                            <p>루프탑 선셋 요가</p>
+                            <p>원시림에 둘러싸인 천상의 공간,<br>
+                                내안의 나를 만나다.</p>
+                        </div>
+                    </div>
+                    <div class="video2" src="https://www.youtube.com/embed/lz1vsGB307g">
+                        <div class="textBox">
+                            <p>Infinity Pool Party</p>
+                            <p>365일 인피니티 풀에서 열리는<br>
+                                가장 핫한 제주도 호텔 풀 파티!</p>
+                        </div>
+                    </div>
+                    <div class="video3" src="https://www.youtube.com/embed/RlKPXS6RQ_g">
+                        <div class="textBox">
+                            <p>BEYOND Roof Top Bar</p>
+                            <p>어둠이 내린 제주의 밤,<br>
+                                가장 빛나는 순간을 만나다.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="Library-2">
+                    <div class="video4" src="https://www.youtube.com/embed/ACD1xA-ZnGc">
+                        <div class="textBox">
+                            <p>고독한호텔러X히든클리프</p>
+                            <p>히든클리프에서 YOLO라이프를<br>
+                                제대로 즐긴 그녀의 고독하지만<br>
+                                외롭지 않았던 여행기</p>
+                        </div>
+                    </div>
+                    <div class="video5" src="https://www.youtube.com/embed/QdaVkZNfIbw">
+                        <div class="textBox">
+                            <p>Infinity Aquafloat Yoga</p>
+                            <p>히든클리프가 선사하는<br>
+                                궁극의 힐링</p>
+                        </div>
+                    </div>
+                    <div class="video6" src="https://www.youtube.com/embed/66CEGbqrvzY">
+                        <div class="textBox">
+                            <p>히든 클리프의 아침</p>
+                            <p>객식 발코니를 활짝 열어두고<br>
+                                새들의 노래를 감상하다.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="Library-3">
+                    <div class="video7" src="https://www.youtube.com/embed/9KTFmcQliHI">
+                        <div class="textBox">
+                            <p>제주가 숨겨둔 발리</p>
+                            <p>히든 클리프 호텔&네이쳐<br>
+                                홍보영상</p>
+                        </div>
+                    </div>
+                    <div class="video8" src="https://www.youtube.com/embed/A23sVkBNfBU">
+                        <div class="textBox">
+                            <p>BEYOND Roof Top Party</p>
+                            <p>매일밤 감각적인 파티와<br>
+                                공연이 펼쳐지는<br>
+                                핑크빛 오아시스</p>
+                        </div>
+                    </div>
+                    <div class="video9" src="https://www.youtube.com/embed/8n-7F5B6NA4">
+                        <div class="textBox">
+                            <p>BEYOND Roof Top Night</p>
+                            <p>모두 하나 되어 즐기는<br>
+                                제주에서 가장 빛나는 밤</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <ul class="video_nav after">
+                <li><a href="#" class="on"><i class="fas fa-circle"></i></a></li>
+                <li><a href="#"><i class="fas fa-circle"></i></a></li>
+                <li><a href="#"><i class="fas fa-circle"></i></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="main_Icon after con1">
+        <ul class="Icons after">
+            <li><a href="#"><img src="./img/icon1.png" alt="infinity pool"><p>Infinity Pool</p></a></li>
+            <li><a href="#"><img src="./img/icon2.png" alt="spa"><p>Spa</p></a></li>
+            <li><a href="#"><img src="./img/icon3.png" alt="gallery"><p>Gallery</p></a></li>
+            <li><a href="#"><img src="./img/icon4.png" alt="reservation"><p>Reservation</p></a></li>
+        </ul>
+        <div class="radio_Player">
+            <h2>RADIO AD</h2>
+            <div class="audio_Controller">
+                <a href="#" onclick="return false;" class="audio_button_prev"></a>
+                <a href="#" class="audio_button_play"></a>
+                <a href="#" onclick="return false;" class="audio_button_next"></a>
+            </div>
+        </div>
+    </div>
+    <div class="main_Magazine con1 after">
+        <div class="magazine_bg">
+            <a href="#" class="magazine_bg_1 after on">
+                <div class="scaleBox">
+                    <div class="magazine_1"></div>
+                </div>
+                <div class="magazine_Text_1">
+                    <img src="./img/hidden_cliffText.png" alt="hidden_cliffText">
+                    <p>따뜻한 온수풀에서 만끽하는<br>
+                        낭만적인 겨울 호캉스
+                        <span>Comfy Winter</span>
+                    </p>
+                </div>
+            </a>
+            <a href="#" class="magazine_bg_2 after">
+                <div class="scaleBox">
+                    <div class="magazine_2"></div>
+                </div>
+                <div class="magazine_Text_2">
+                    <img src="./img/hidden_cliffText.png" alt="hidden_cliffText">
+                    <p>국내 최대 규모의 온수 인피니티풀과<br>
+                        제주 유일의 록시땅 스파가있는 이곳에서<br>
+                        무한한 휴식을 즐기다.
+                        <span>자연 속 진정한 휴식</span>
+                    </p>
+                </div>
+            </a>
+            <a href="#" class="magazine_bg_3 after">
+                <div class="scaleBox">
+                    <div class="magazine_3"></div>
+                </div>
+                <div class="magazine_Text_3">
+                    <img src="./img/hidden_cliffText.png" alt="hidden_cliffText">
+                    <p>180만 년 동안 사람의 손이 닿지 않았던<br>
+                        원시림 속 히든 클리프 호텔&네이쳐 에서<br>
+                        뜻밖의 위안을 받았다.
+                    <span>제주 숲에서의 하루</span>
+                    </p>
+                </div>
+            </a>
+            <div class="magazin_nav">
+                <ul class="after">
+                    <li><a href="#" class="on"><i class="fas fa-circle"></i></a></li>
+                    <li><a href="#"><i class="fas fa-circle"></i></a></li>
+                    <li><a href="#"><i class="fas fa-circle"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="hidden_Story">
+            <a href="#" class="scaleBox">
+                <p>HIDDEN<br>STORY</p>
+                <p>자연과 조화를 이루며<br>
+                자연 그대로를 누리는 순간</p>
+                <div class="storyImg"></div>
+            </a>
+        </div>
+    </div>
+    <div class="main_Gallery">
+        <div class="gallery_bg">
+            <h2>PHOTO GALLERY</h2>
+        </div>
+        <div class="main_Gallery_nav after">
+            <a href="#" class="prev">
+                <img src="./img/black_arrow-left.png" alt="">
+            </a>
+            <a href="#" class="next">
+                <img src="./img/black_arrow-right.png" alt="">
+            </a>
+        </div>
+        <div class="gallert_frame">
+            <div class="gallery_Container after">
+                <div class="galleryBox">
+                    <div class="pic5"></div>
+                    <div class="gallery_TextBox">
+                        <h2>오름정원</h2>
+                        <p>느린 시간 속을 거닐다.</p>
+                    </div>
+                </div>
+                <div class="galleryBox">
+                    <div class="pic6"></div>
+                    <div class="gallery_TextBox">
+                        <h2>오름정원</h2>
+                        <p>타박타박 걸으며 만난 계절</p>
+                    </div>
+                </div>
+                <div class="galleryBox">
+                    <div class="pic7 on"></div>
+                    <div class="gallery_TextBox">
+                        <h2>Hidden Cliff</h2>
+                        <p>180만년의 시간과 만나다.</p>
+                    </div>
+                </div>
+                <div class="galleryBox">
+                    <div class="pic8"></div>
+                    <div class="gallery_TextBox">
+                        <h2>Hidden Cliff</h2>
+                        <p>자연과 함꼐 보내는 여행의 의미</p>
+                    </div>
+                </div>
+                <div class="galleryBox">
+                    <div class="pic9"></div>
+                    <div class="gallery_TextBox">
+                        <h2>Hidden Cliff</h2>
+                        <p>원시 자연의 감동 속으로</p>
+                    </div>
+                </div>
+                <div class="galleryBox">
+                    <div class="pic10"></div>
+                    <div class="gallery_TextBox">
+                        <h2>비욘드 전망데크</h2>
+                        <p>당신의 소망을 담은 2016 카운트다운 이벤트</p>
+                    </div>
+                </div>
+                <div class="galleryBox">
+                    <div class="pic11"></div>
+                    <div class="gallery_TextBox">
+                        <h2>액티비티</h2>
+                        <p>반디 마술사가 펼치는 환상적인 매직쇼</p>
+                    </div>
+                </div>
+                <div class="galleryBox">
+                    <div class="pic12"></div>
+                    <div class="gallery_TextBox">
+                        <h2>액티비티</h2>
+                        <p>반디 마술사가 펼치는 환상적인 매직쇼</p>
+                    </div>
+                </div>
+                <div class="galleryBox">
+                    <div class="pic13"></div>
+                    <div class="gallery_TextBox">
+                        <h2>심포니 대연회장</h2>
+                        <p>따뜻한 연말에 함께한 흥겨운 재즈 공연</p>
+                    </div>
+                </div>
+                <div class="galleryBox">
+                    <div class="pic14"></div>
+                    <div class="gallery_TextBox">
+                        <h2>Hidden Museum</h2>
+                        <p>호텔 곳곳에서 마주하는 '달 항아리' 시리즈</p>
+                    </div>
+                </div>
+                <div class="galleryBox">
+                    <div class="pic15"></div>
+                    <div class="gallery_TextBox">
+                        <h2>Hidden Museum</h2>
+                        <p>호텔 곳곳에서 마주하는 '달 항아리' 시리즈</p>
+                    </div>
+                </div>
+                <div class="galleryBox">
+                    <div class="pic16"></div>
+                    <div class="gallery_TextBox">
+                        <h2>Hidden Museum</h2>
+                        <p>호텔 곳곳에서 마주하는 '달 항아리' 시리즈</p>
+                    </div>
+                </div>
+                <div class="galleryBox">
+                    <div class="pic17"></div>
+                    <div class="gallery_TextBox">
+                        <h2>사계절 온수풀</h2>
+                        <p>달콤한 정적 속에서 유영하는 우리의 겨울</p>
+                    </div>
+                </div>
+                <div class="galleryBox">
+                    <div class="pic1"></div>
+                    <div class="gallery_TextBox">
+                        <h2>인피니티 카바나</h2>
+                        <p>사계절 온수풀과 원시림의 매력을 좀 더 가까이서 느끼는 방법</p>
+                    </div>
+                </div>
+                <div class="galleryBox">
+                    <div class="pic2"></div>
+                    <div class="gallery_TextBox">
+                        <h2>인피니티 카바나</h2>
+                        <p>편안하고 여유로운 공간 그 이상의 의미</p>
+                    </div>
+                </div>
+                <div class="galleryBox">
+                    <div class="pic3"></div>
+                    <div class="gallery_TextBox">
+                        <h2>루프탑 요가</h2>
+                        <p>원시림의 맑은 기운을 담으며</p>
+                    </div>
+                </div>
+                <div class="galleryBox">
+                    <div class="pic4"></div>
+                    <div class="gallery_TextBox">
+                        <h2>Design</h2>
+                        <p>새로운 공간에서 얻은 영감</p>
+                    </div>
+                </div>
+            
+            </div>
+        </div>
+    </div>
+</div>
+<div id="footer">
+    <div class="footer_contact">
+        <div class="after">
+            <div>
+                <span>
+                    대표전화
+                </span>
+                <p>
+                    064-752-7777
+                </p>
+            </div>
+            <div>
+                <span>
+                    E-MAIL
+                </span>
+                <p>
+                    info@hiddencliff.kr
+                </p>
+            </div>
+            <div>
+                <span>
+                    객실예약
+                </span>
+                <p>
+                    02-2277-9999
+                    (주중 09:00 ~ 18:00)
+                </p>
+            </div>
+            <div class="bookingBtn">
+                <a href="#">예약하기</a>
+            </div>
+        </div>
+    </div>
+    <div class="footer_sitemap">
+        <div class="after">
+            <div>
+                <p>Hidden Cliff</p>
+                <ul>
+                    <li><a href="#">호텔소개</a></li>
+                    <li><a href="#">오시는 길</a></li>
+                    <li><a href="#">공지사항</a></li>
+                </ul>
+            </div>
+            <div>
+                <p>Special Offer</p>
+                <ul>
+                    <li><a href="#">객실 프로모션</a></li>
+                    <li><a href="#">다이닝</a></li>
+                    <li><a href="#">액티비티</a></li>
+                    <li><a href="#">이벤트</a></li>
+                </ul>
+            </div>
+            <div>
+                <p>Rooms</p>
+                <ul>
+                    <li><a href="#">디럭스</a></li>
+                    <li><a href="#">스위트</a></li>
+                </ul>
+            </div>
+            <div>
+                <p>Dining</p>
+                <ul>
+                    <li><a href="#">파노라마</a></li>
+                    <li><a href="#">비욘드</a></li>
+                    <li><a href="#">치치</a></li>
+                </ul>
+            </div>
+            <div>
+                <p>The Infiniti Pool</p>
+                <ul>
+                    <li><a href="#">인피니티 풀</a></li>
+                </ul>
+            </div>
+            <div>
+                <p>The Trinity Spa
+                    by L'occitane</p>
+                <ul>
+                    <li><a href="#">더 트리니티 스파 바이 록시땅</a></li>
+                </ul>
+            </div>
+            <div>
+                <p>Meeting</p>
+                <ul>
+                    <li><a href="#">심포니</a></li>
+                    <li><a href="#">하모니</a></li>
+                </ul>
+            </div>
+            <div>
+                <p>Facilities</p>
+                <ul>
+                    <li><a href="#">키즈 플레이 룸</a></li>
+                    <li><a href="#">피트니스 센터</a></li>
+                    <li><a href="#">히든 트레일</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer_info">
+        <div class="footer-logo"></div>
+        <p>
+            제주특별자치도 서귀포시 예래해안로 542 (중문) 예래클리프개발(주)<br>
+            (구: 제주특별자치도 서귀포시 상예동 625) 대표이사 : 이병혁<br>
+            <span>사업자등록번호</span> 616-81-98536 <span>통신판매신고번호</span> (제2016-제주예래-15호)<br>
+            Copyright © yerae Cliff Development CO., LTD. All Rights Reserved.
+        </p>
+        <ul class="after">
+            <li><a href="#">개인정보처리방침</a></li>
+            <li><a href="#"></a><i class="fab fa-facebook-f"></i></li>
+            <li><a href="#"></a><i class="fab fa-instagram"></i></li>
+            <li><a href="#"></a><i class="fab fa-google-plus-square"></i></li>
+        </ul>
+    </div>
+</div>
+
+
+</body>
+</html>
